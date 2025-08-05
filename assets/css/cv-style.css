@@ -67,9 +67,9 @@
 
 .cv-date {
   flex-shrink: 0;
-  font-size: 0.9em;
+  font-size: 0.8em;
   color: #95a5a6;
-  font-weight: 500;
+  /* font-weight: 500; */
   text-align: right;
   min-width: 120px;
   align-self: flex-start;

@@ -69,7 +69,7 @@ redirect_from:
     <div class="cv-content">
       <h3>Windsurf</h3>
       <p class="position">Software Engineer</p>
-      <p class="details">RL infrastructure and multimodal training</p>
+      <p class="details">RL infrastructure and multimodal training. Was part of the Windsurf → DeepMind acquihire process, but ended up taking a different path.</p>
     </div>
     <div class="cv-date">Jun 2025 - Aug 2025</div>
   </div>
