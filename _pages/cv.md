@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-## Education 🎓
+## Education 👩‍🎓
 
 <div class="cv-section">
   <div class="cv-item">
@@ -47,7 +47,7 @@ redirect_from:
   </div>
 </div>
 
-## Work Experience 💼
+## Work Experience 👩‍💻
 
 <div class="cv-section">
   <div class="cv-item">
