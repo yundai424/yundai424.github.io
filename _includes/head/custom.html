@@ -10,6 +10,87 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 
+<!-- Force light theme inline -->
+<style>
+html {
+  color-scheme: light !important;
+}
+html[data-theme="dark"] {
+  background-color: white !important;
+  color: #333 !important;
+}
+html[data-theme="dark"] body {
+  background-color: white !important;
+  color: #333 !important;
+}
+body {
+  background-color: white !important;
+  color: #333 !important;
+}
+/* Force light theme for header */
+html[data-theme="dark"] .masthead {
+  background-color: white !important;
+  background: white !important;
+  border-bottom: 1px solid #f2f2f2 !important;
+}
+html[data-theme="dark"] .masthead__inner-wrap {
+  background-color: white !important;
+  background: white !important;
+}
+html[data-theme="dark"] .masthead__menu {
+  background-color: white !important;
+  background: white !important;
+}
+html[data-theme="dark"] .masthead a {
+  color: #333 !important;
+}
+html[data-theme="dark"] .greedy-nav {
+  background-color: white !important;
+  background: white !important;
+}
+html[data-theme="dark"] .greedy-nav a {
+  color: #333 !important;
+}
+html[data-theme="dark"] .visible-links {
+  background-color: white !important;
+  background: white !important;
+}
+html[data-theme="dark"] .masthead__menu-item {
+  background-color: white !important;
+  background: white !important;
+}
+/* Force light theme for footer */
+html[data-theme="dark"] .page__footer {
+  background-color: #f2f2f2 !important;
+  color: #333 !important;
+}
+html[data-theme="dark"] .page__footer-copyright {
+  color: #333 !important;
+}
+/* Force light theme for sidebar */
+html[data-theme="dark"] .sidebar {
+  background-color: white !important;
+}
+html[data-theme="dark"] .author__content {
+  color: #333 !important;
+}
+</style>
+
+<!-- Force light theme script -->
+<script>
+(function() {
+  // Remove dark theme immediately
+  document.documentElement.removeAttribute('data-theme');
+  localStorage.removeItem('theme');
+  
+  // Force light theme on DOM ready
+  document.addEventListener('DOMContentLoaded', function() {
+    document.documentElement.removeAttribute('data-theme');
+    localStorage.removeItem('theme');
+  });
+})();
+</script>
+
 <!-- CV Styles -->
 <link rel="stylesheet" href="{{ base_path }}/assets/css/cv-style.css">
 
