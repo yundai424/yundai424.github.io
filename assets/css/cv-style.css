@@ -1,113 +1,111 @@
-/* CV Template Styles */
+/* Modern CV Template Styles */
 .cv-container {
   max-width: 1000px;
   margin: 0 auto;
+  padding: 20px;
   font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #333;
   line-height: 1.6;
 }
 
-/* Header Styles */
-.cv-header {
-  margin-bottom: 2rem;
-  border-bottom: 2px solid #f2f2f2;
-  padding-bottom: 1rem;
-}
-
-.cv-header h1 {
-  margin-bottom: 0.5rem;
-  color: #2a7ae2;
-}
-
-.cv-contact-info {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  margin-bottom: 0.5rem;
-}
-
-.cv-contact-item {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.cv-profiles {
-  display: flex;
-  gap: 1rem;
-  margin-top: 0.5rem;
-}
-
-.cv-profile-item {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.cv-profile-item a {
-  color: #2a7ae2;
-  text-decoration: none;
-}
-
-.cv-profile-item a:hover {
-  text-decoration: underline;
-}
-
-/* Section Styles */
 .cv-section {
-  margin-bottom: 2rem;
+  margin-bottom: 40px;
 }
 
-.cv-section h2 {
-  border-bottom: 1px solid #f2f2f2;
-  padding-bottom: 0.5rem;
-  margin-bottom: 1rem;
+.cv-item {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
-  color: #2a7ae2;
+  margin-bottom: 30px;
+  padding: 20px 0;
+  border-bottom: 1px solid #e9ecef;
+  min-height: 80px;
 }
 
-.cv-section h2 i {
-  color: #666;
-}
-
-/* Item Styles */
-.cv-item {
-  margin-bottom: 1.5rem;
-}
-
-.cv-item-header {
+.cv-logo {
+  flex-shrink: 0;
+  margin-right: 20px;
+  width: 60px;
+  height: 60px;
   display: flex;
-  justify-content: space-between;
-  margin-bottom: 0.5rem;
+  align-items: center;
+  justify-content: center;
 }
 
-.cv-item-title {
-  font-weight: bold;
-  font-size: 1.1rem;
+.institution-logo,
+.company-logo {
+  max-width: 50px;
+  max-height: 50px;
+  object-fit: contain;
 }
 
-.cv-item-date {
-  color: #666;
+.cv-content {
+  flex-grow: 1;
+  margin-right: 20px;
 }
 
-.cv-item-subtitle {
-  color: #666;
-  margin-bottom: 0.5rem;
+.cv-content h3 {
+  margin: 0 0 8px 0;
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #2c3e50;
 }
 
-.cv-item-summary {
-  margin-bottom: 0.5rem;
+.cv-content .degree,
+.cv-content .position {
+  margin: 0 0 6px 0;
+  font-size: 0.95em;
+  font-weight: 400;
+  color: #2c3e50;
 }
 
-.cv-item-highlights {
-  margin-top: 0.5rem;
-  padding-left: 1.5rem;
+.cv-content .details {
+  margin: 0;
+  font-size: 0.95em;
+  color: #7f8c8d;
+  line-height: 1.4;
 }
 
-.cv-item-highlights li {
-  margin-bottom: 0.25rem;
+.cv-date {
+  flex-shrink: 0;
+  font-size: 0.9em;
+  color: #95a5a6;
+  font-weight: 500;
+  text-align: right;
+  min-width: 120px;
+  align-self: flex-start;
+  margin-top: 0;
+}
+
+/* Section headers */
+.cv-container h2 {
+  font-size: 1.8em;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 25px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #3498db;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .cv-item {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .cv-logo {
+    margin: 0 auto 15px auto;
+  }
+  
+  .cv-content {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  
+  .cv-date {
+    text-align: center;
+    min-width: auto;
+  }
 }
 
 .cv-item-courses ul {
