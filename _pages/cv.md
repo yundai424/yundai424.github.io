@@ -57,7 +57,7 @@ redirect_from:
     <div class="cv-content">
       <h3>OpenAI</h3>
       <p class="position">Member of Technical Staff</p>
-      <!-- <p class="details">Working on post-training</p> -->
+      <p class="details">Post-training</p>
     </div>
     <div class="cv-date">Aug 2025 - Present</div>
   </div>

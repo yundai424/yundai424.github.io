@@ -15,4 +15,4 @@ I studied Biology and Journalism at Tsinghua University (B.S. '18), spent a year
 
 My technical interests include large-scale distributed training and inference, reinforcement learning infrastructure, and ML systems broadly. I also enjoy keeping up with the latest research in post-training and multimodal LLMs. I'm especially curious about the intersection of AI and the social sciences. 
 
-Outside of machine learning, I like to stay active (🏂, 🧗, 🏋️), do some handcrafting, read about sociology, and relax with my cats 🐈.
+Outside of work, I like to stay active (🏂, 🧗, 🏋️), do some handcrafting, read about sociology, and relax with my cats 🐈.
